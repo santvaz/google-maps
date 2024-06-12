@@ -1,0 +1,1617 @@
+{
+	"kml": {
+		"Document": {
+			"name": "localizacion peñas",
+			"Style": [
+				{
+					"IconStyle": {
+						"color": "ff00d6ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1517-FFD600-nodesc-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff00d6ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1517-FFD600-nodesc-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ffd18802",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1532-0288D1-nodesc-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ffd18802",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1532-0288D1-nodesc-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff5252ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"_id": "icon-1603-FF5252-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff5252ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"_id": "icon-1603-FF5252-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff5252ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"_id": "icon-1670-FF5252-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff5252ff",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"_id": "icon-1670-FF5252-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff42b37c",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1899-7CB342-nodesc-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff42b37c",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1899-7CB342-nodesc-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff007cf5",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"_id": "icon-1899-F57C00-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff007cf5",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"_id": "icon-1899-F57C00-highlight"
+				},
+				{
+					"IconStyle": {
+						"color": "ff007cf5",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "0"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1899-F57C00-nodesc-normal"
+				},
+				{
+					"IconStyle": {
+						"color": "ff007cf5",
+						"scale": "1",
+						"Icon": {
+							"href": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+						},
+						"hotSpot": {
+							"_x": "32",
+							"_xunits": "pixels",
+							"_y": "64",
+							"_yunits": "insetPixels"
+						}
+					},
+					"LabelStyle": {
+						"scale": "1"
+					},
+					"BalloonStyle": {
+						"text": "<h3>$[name]</h3>"
+					},
+					"_id": "icon-1899-F57C00-nodesc-highlight"
+				}
+			],
+			"StyleMap": [
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1517-FFD600-nodesc-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1517-FFD600-nodesc-highlight"
+						}
+					],
+					"_id": "icon-1517-FFD600-nodesc"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1532-0288D1-nodesc-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1532-0288D1-nodesc-highlight"
+						}
+					],
+					"_id": "icon-1532-0288D1-nodesc"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1603-FF5252-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1603-FF5252-highlight"
+						}
+					],
+					"_id": "icon-1603-FF5252"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1670-FF5252-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1670-FF5252-highlight"
+						}
+					],
+					"_id": "icon-1670-FF5252"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1899-7CB342-nodesc-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1899-7CB342-nodesc-highlight"
+						}
+					],
+					"_id": "icon-1899-7CB342-nodesc"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1899-F57C00-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1899-F57C00-highlight"
+						}
+					],
+					"_id": "icon-1899-F57C00"
+				},
+				{
+					"Pair": [
+						{
+							"key": "normal",
+							"styleUrl": "#icon-1899-F57C00-nodesc-normal"
+						},
+						{
+							"key": "highlight",
+							"styleUrl": "#icon-1899-F57C00-nodesc-highlight"
+						}
+					],
+					"_id": "icon-1899-F57C00-nodesc"
+				}
+			],
+			"Placemark": [
+				{
+					"name": "Ermita",
+					"description": "40.57291, -4.15428",
+					"styleUrl": "#icon-1670-FF5252",
+					"Point": {
+						"coordinates": "-4.1542898,40.5729117,0"
+					}
+				},
+				{
+					"name": "HERMANDAD DE ROMEROS",
+					"description": "40.57271, -4.15468",
+					"styleUrl": "#icon-1603-FF5252",
+					"Point": {
+						"coordinates": "-4.1546869,40.5727124,0"
+					}
+				},
+				{
+					"name": "Peña El 43",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1535528,40.574052,0"
+					}
+				},
+				{
+					"name": "Peña los 4 Amigos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1521296,40.5734239,0"
+					}
+				},
+				{
+					"name": "Peña 7 Pelos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1517522,40.5733133,0"
+					}
+				},
+				{
+					"name": "Peña la Abueli familia Arjona",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1523906,40.5731095,0"
+					}
+				},
+				{
+					"name": "Peña Los Ahí",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1547536,40.5720373,0"
+					}
+				},
+				{
+					"name": "Peña AJ",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1550595,40.5722211,0"
+					}
+				},
+				{
+					"name": "Peña los Alabarderos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.152985,40.5735908,0"
+					}
+				},
+				{
+					"name": "Peña La Alforja",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1538278,40.5732554,0"
+					}
+				},
+				{
+					"name": "Peña Al Fondo hay Sitio",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1520526,40.5728936,0"
+					}
+				},
+				{
+					"name": "Peña Los Amigos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530879,40.5737831,0"
+					}
+				},
+				{
+					"name": "Peña Los Amigos del Billar",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1532953,40.574329,0"
+					}
+				},
+				{
+					"name": "Peña ARC",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1545285,40.5723963,0"
+					}
+				},
+				{
+					"name": "Peña el Arrullo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1513712,40.573622,0"
+					}
+				},
+				{
+					"name": "Peña ATH",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1536601,40.5734734,0"
+					}
+				},
+				{
+					"name": "Peña la Banda",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.152762,40.5725864,0"
+					}
+				},
+				{
+					"name": "Peña la Bandera",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1523248,40.5740756,0"
+					}
+				},
+				{
+					"name": "Peña La Barbacoa",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1549701,40.5714901,0"
+					}
+				},
+				{
+					"name": "Peña La Barrica",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1548836,40.5733991,0"
+					}
+				},
+				{
+					"name": "Grupo familiar Batres",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1522161,40.573928,0"
+					}
+				},
+				{
+					"name": "Peña El Bidón",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1546475,40.5735866,0"
+					}
+				},
+				{
+					"name": "Peña los Bodegueros",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1528347,40.5729033,0"
+					}
+				},
+				{
+					"name": "Peña el Bombazo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.151575,40.5736628,0"
+					}
+				},
+				{
+					"name": "Peña El Boquerón",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530589,40.573566,0"
+					}
+				},
+				{
+					"name": "Peña los Botellines",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521236,40.5739964,0"
+					}
+				},
+				{
+					"name": "Peña la Botica",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521568,40.5744439,0"
+					}
+				},
+				{
+					"name": "Peña El Botijo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1527381,40.5732022,0"
+					}
+				},
+				{
+					"name": "Peña Los Bubus",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530654,40.5728638,0"
+					}
+				},
+				{
+					"name": "Peña el Bulli",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1540504,40.5713583,0"
+					}
+				},
+				{
+					"name": "Peña El Cajón",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1520629,40.5735583,0"
+					}
+				},
+				{
+					"name": "Peña la Calleja",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521246,40.5744043,0"
+					}
+				},
+				{
+					"name": "Peña Los Camblores",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1545597,40.5713973,0"
+					}
+				},
+				{
+					"name": "Peña Campamento Romero",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.15433,40.572323,0"
+					}
+				},
+				{
+					"name": "Peña la Canela",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1525029,40.5738985,0"
+					}
+				},
+				{
+					"name": "Peña La Carreta",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1537919,40.5740674,0"
+					}
+				},
+				{
+					"name": "Peña la Castaña 3.20",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530286,40.5735653,0"
+					}
+				},
+				{
+					"name": "Peña El Castañazo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1540034,40.573286,0"
+					}
+				},
+				{
+					"name": "Peña los Cebollas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1504184,40.5741532,0"
+					}
+				},
+				{
+					"name": "Peña El Cencerro",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1547366,40.5728407,0"
+					}
+				},
+				{
+					"name": "Peña los Cerrajas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.151838,40.5737559,0"
+					}
+				},
+				{
+					"name": "Peña Club Ciclista",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.154382,40.5735275,0"
+					}
+				},
+				{
+					"name": "Peña El Cisco",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1544089,40.5737048,0"
+					}
+				},
+				{
+					"name": "Peña el Cisquero",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1527462,40.5731037,0"
+					}
+				},
+				{
+					"name": "Peña El Cobijo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1549014,40.5729523,0"
+					}
+				},
+				{
+					"name": "Peña los Colillos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1512141,40.5742591,0"
+					}
+				},
+				{
+					"name": "Peña la Conjura de San Lorenzo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1519479,40.5739689,0"
+					}
+				},
+				{
+					"name": "Peña La Coope",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1556033,40.5726738,0"
+					}
+				},
+				{
+					"name": "Peña Corazón Latino",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1554558,40.5725781,0"
+					}
+				},
+				{
+					"name": "Peña La Cuadrilla",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1542613,40.5733503,0"
+					}
+				},
+				{
+					"name": "Peña el Cucurucho",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1532414,40.5731292,0"
+					}
+				},
+				{
+					"name": "Peña Cuchara y Tenedor",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1518595,40.5731462,0"
+					}
+				},
+				{
+					"name": "Peña los que te Cuento",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1522404,40.5729506,0"
+					}
+				},
+				{
+					"name": "Peña La Currutaca",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1530573,40.5729188,0"
+					}
+				},
+				{
+					"name": "Peña La Chapuza",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1535507,40.5738566,0"
+					}
+				},
+				{
+					"name": "Peña El Chiringuito",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1532739,40.5739461,0"
+					}
+				},
+				{
+					"name": "Peña Los Chismes",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1544052,40.5724411,0"
+					}
+				},
+				{
+					"name": "Peña El Chupetin",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1538215,40.5736721,0"
+					}
+				},
+				{
+					"name": "Peña El Desacuerdo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521814,40.5730612,0"
+					}
+				},
+				{
+					"name": "Peña el Desastre",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1533921,40.5728169,0"
+					}
+				},
+				{
+					"name": "Peña el Doblete",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1523987,40.5731636,0"
+					}
+				},
+				{
+					"name": "Peña el Doce",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1540519,40.5723752,0"
+					}
+				},
+				{
+					"name": "Peña la Empanada",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1525136,40.5735257,0"
+					}
+				},
+				{
+					"name": "Peña La Ermita",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1544839,40.5733726,0"
+					}
+				},
+				{
+					"name": "Peña Los Ermitaños",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1549946,40.5731093,0"
+					}
+				},
+				{
+					"name": "Peña Facundo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1536363,40.5726942,0"
+					}
+				},
+				{
+					"name": "Peña la Faja",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1520009,40.5735145,0"
+					}
+				},
+				{
+					"name": "Peña  La Familia",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.154656,40.5724639,0"
+					}
+				},
+				{
+					"name": "Peña Fausto",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1528894,40.5739379,0"
+					}
+				},
+				{
+					"name": "Peña La Garrota",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.153537,40.5729178,0"
+					}
+				},
+				{
+					"name": "Peña Los Golfillos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1536762,40.5741417,0"
+					}
+				},
+				{
+					"name": "Peña Los Gurriatines",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1548498,40.5728272,0"
+					}
+				},
+				{
+					"name": "Peña Gurrimusica",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1521612,40.5742366,0"
+					}
+				},
+				{
+					"name": "Peña Haciendo Amigos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530675,40.572654,0"
+					}
+				},
+				{
+					"name": "Peña Familia Herranz Parra",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1522846,40.5734371,0"
+					}
+				},
+				{
+					"name": "Peña el Hoyuelo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.152683,40.5730838,0"
+					}
+				},
+				{
+					"name": "Peña Familia de la Iglesia",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1544092,40.5722643,0"
+					}
+				},
+				{
+					"name": "Peña Los Ingenuinos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1549814,40.5733487,0"
+					}
+				},
+				{
+					"name": "Peña Internacional Serrana",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1550858,40.5732755,0"
+					}
+				},
+				{
+					"name": "Peña Los Invisibles",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1549357,40.5728924,0"
+					}
+				},
+				{
+					"name": "Peña El Jamacuco",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1531157,40.5728684,0"
+					}
+				},
+				{
+					"name": "Peña El Jamón",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1544679,40.5734541,0"
+					}
+				},
+				{
+					"name": "Peña La Jara y La Jarita",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.154103,40.5735152,0"
+					}
+				},
+				{
+					"name": "Peña Los Leones",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.154728,40.5732443,0"
+					}
+				},
+				{
+					"name": "Peña La Lonja",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.153372,40.5738008,0"
+					}
+				},
+				{
+					"name": "Peña las Machotas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1512248,40.5740822,0"
+					}
+				},
+				{
+					"name": "Familia Martín",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.153467,40.574272,0"
+					}
+				},
+				{
+					"name": "Grupo Familiar Martín Benito",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.154162,40.5738005,0"
+					}
+				},
+				{
+					"name": "Peña Familia Martin Pedraza",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1547682,40.5734949,0"
+					}
+				},
+				{
+					"name": "Peña Monte Escorial",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1515643,40.5739069,0"
+					}
+				},
+				{
+					"name": "Peña El Mortero",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1552843,40.5731532,0"
+					}
+				},
+				{
+					"name": "Peña El Nido",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1540548,40.5738759,0"
+					}
+				},
+				{
+					"name": "Peña Nombela",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1525177,40.573759,0"
+					}
+				},
+				{
+					"name": "Peña Nueva",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1537222,40.5737292,0"
+					}
+				},
+				{
+					"name": "Peña Otra Peña Mas",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1531787,40.5736847,0"
+					}
+				},
+				{
+					"name": "Peña Los de Paloma",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1542747,40.5732422,0"
+					}
+				},
+				{
+					"name": "Peña Los Pajaritos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1552326,40.5724843,0"
+					}
+				},
+				{
+					"name": "Peña La Parada",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1552818,40.5722874,0"
+					}
+				},
+				{
+					"name": "Peña La Parra",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1544839,40.5736416,0"
+					}
+				},
+				{
+					"name": "Peña La Parrilla",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1553386,40.5729539,0"
+					}
+				},
+				{
+					"name": "Peña Patio Largo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1527657,40.5739922,0"
+					}
+				},
+				{
+					"name": "Peña Los Pelusos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1552916,40.5725637,0"
+					}
+				},
+				{
+					"name": "Peña La Penúltima",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521071,40.5732847,0"
+					}
+				},
+				{
+					"name": "Peña Los Penúltimos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1553074,40.5720618,0"
+					}
+				},
+				{
+					"name": "Peña el Peñazo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1536926,40.572528,0"
+					}
+				},
+				{
+					"name": "Peña Peques y Amigos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1528225,40.5730864,0"
+					}
+				},
+				{
+					"name": "Peña El Petate",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1550105,40.5716938,0"
+					}
+				},
+				{
+					"name": "Peña La Picota",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.155449,40.5728326,0"
+					}
+				},
+				{
+					"name": "Peña El Picotazo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1531451,40.5742476,0"
+					}
+				},
+				{
+					"name": "Peña Los Pimentelines",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1546452,40.5722805,0"
+					}
+				},
+				{
+					"name": "Peña PMM",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1550734,40.5713657,0"
+					}
+				},
+				{
+					"name": "Peña El Pinsapo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1536282,40.5727342,0"
+					}
+				},
+				{
+					"name": "Peña El Pollo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1552655,40.5729932,0"
+					}
+				},
+				{
+					"name": "Peña la Posada",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1524199,40.5732864,0"
+					}
+				},
+				{
+					"name": "Peña Los Pulguinas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1548723,40.5715756,0"
+					}
+				},
+				{
+					"name": "Peña El Quejigal",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1536283,40.5737394,0"
+					}
+				},
+				{
+					"name": "Peña El Refajo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1531026,40.5734709,0"
+					}
+				},
+				{
+					"name": "Peña RR Repobladores Romeros",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1508386,40.5743528,0"
+					}
+				},
+				{
+					"name": "Peña el Rebote",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1524657,40.5730158,0"
+					}
+				},
+				{
+					"name": "Peña El Remojón",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1551003,40.5728387,0"
+					}
+				},
+				{
+					"name": "Peña La Retama",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1537034,40.5739594,0"
+					}
+				},
+				{
+					"name": "Peña El Revolcón",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1552059,40.5730165,0"
+					}
+				},
+				{
+					"name": "Peña el Revoltijo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1540121,40.5721845,0"
+					}
+				},
+				{
+					"name": "Peña Rome2",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1524727,40.5738784,0"
+					}
+				},
+				{
+					"name": "Peña los Romeritos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1522121,40.5742743,0"
+					}
+				},
+				{
+					"name": "Peña el Rondón",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1524484,40.5730764,0"
+					}
+				},
+				{
+					"name": "Peña Los Rondoneros",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1540441,40.573662,0"
+					}
+				},
+				{
+					"name": "Peña el Roto",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1538427,40.5724312,0"
+					}
+				},
+				{
+					"name": "Familia Sanchez Moreno",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1549481,40.5731609,0"
+					}
+				},
+				{
+					"name": "Peña Sarin y Amigos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1531505,40.5740642,0"
+					}
+				},
+				{
+					"name": "Peña Serrana",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1533811,40.574105,0"
+					}
+				},
+				{
+					"name": "Peña Los de Siempre",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1552305,40.5723825,0"
+					}
+				},
+				{
+					"name": "Peña El Tambor",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1530535,40.5735783,0"
+					}
+				},
+				{
+					"name": "Peña El Tenderete",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.153875,40.5739655,0"
+					}
+				},
+				{
+					"name": "Peña Tentemozos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.153978,40.5717943,0"
+					}
+				},
+				{
+					"name": "Peña Teo",
+					"description": "hay que confirmar la posición",
+					"styleUrl": "#icon-1899-F57C00",
+					"Point": {
+						"coordinates": "-4.1516062,40.5725733,0"
+					}
+				},
+				{
+					"name": "Peña El Termostato",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1554667,40.5730432,0"
+					}
+				},
+				{
+					"name": "Peña La Timba",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1550353,40.5721025,0"
+					}
+				},
+				{
+					"name": "Peña El Tintorro",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1534995,40.5725832,0"
+					}
+				},
+				{
+					"name": "Peña el Tirador",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1538507,40.5726777,0"
+					}
+				},
+				{
+					"name": "Peña El Tortiñon",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.151042,40.5738226,0"
+					}
+				},
+				{
+					"name": "Peña El Tranvia",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1531102,40.5729428,0"
+					}
+				},
+				{
+					"name": "Peña el Trozo",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1514625,40.5731062,0"
+					}
+				},
+				{
+					"name": "Peña Los Tusos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1529223,40.5725931,0"
+					}
+				},
+				{
+					"name": "Peña El Txistu",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1553685,40.5726879,0"
+					}
+				},
+				{
+					"name": "Peña Amigos Urbanización Príncipe",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.155213,40.5727674,0"
+					}
+				},
+				{
+					"name": "Peña El Valle",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1546395,40.5733584,0"
+					}
+				},
+				{
+					"name": "Peña V.P. Romeros",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1546077,40.5721991,0"
+					}
+				},
+				{
+					"name": "Peña Vaya Par",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1530175,40.5734532,0"
+					}
+				},
+				{
+					"name": "Peña Vaya Peñazo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521595,40.5746708,0"
+					}
+				},
+				{
+					"name": "Peña Los Vegas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1537301,40.5727525,0"
+					}
+				},
+				{
+					"name": "Asociacion Cultural Virgen de la Herreria",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1524036,40.5736133,0"
+					}
+				},
+				{
+					"name": "Familia Yagüe y Amigos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1533651,40.5733791,0"
+					}
+				},
+				{
+					"name": "Peña El Zaguan de la Ermita",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1543779,40.5732656,0"
+					}
+				},
+				{
+					"name": "Peña Zamorano",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1546115,40.5720169,0"
+					}
+				},
+				{
+					"name": "Club de Amigos Zipi-Zape",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1528545,40.5736641,0"
+					}
+				},
+				{
+					"name": "Peña El Cimborrio",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1527832,40.5737065,0"
+					}
+				},
+				{
+					"name": "Peña El Huevo",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1518968,40.5741121,0"
+					}
+				},
+				{
+					"name": "Peña El Zarzal",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.151329,40.5738785,0"
+					}
+				},
+				{
+					"name": "Peña El Trompa",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1515302,40.5734619,0"
+					}
+				},
+				{
+					"name": "Peña El Coteron",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1538287,40.5727623,0"
+					}
+				},
+				{
+					"name": "Peña La Amistad",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1553238,40.5726515,0"
+					}
+				},
+				{
+					"name": "Familia Martin Manjon",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1528562,40.5732546,0"
+					}
+				},
+				{
+					"name": "Familia Fernandez Benito",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1524989,40.5741432,0"
+					}
+				},
+				{
+					"name": "Peña La Jartada",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1534856,40.5727731,0"
+					}
+				},
+				{
+					"name": "Peña La Hoguera",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1538064,40.5739173,0"
+					}
+				},
+				{
+					"name": "Peña Los Canteros",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530008,40.5729107,0"
+					}
+				},
+				{
+					"name": "Peña Los Cosos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1543457,40.5724676,0"
+					}
+				},
+				{
+					"name": "Peña Los Pulgarus",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1523106,40.5729933,0"
+					}
+				},
+				{
+					"name": "Peña Los Maitos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1515897,40.5732501,0"
+					}
+				},
+				{
+					"name": "Peña Los Rezagados",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.155088,40.5727004,0"
+					}
+				},
+				{
+					"name": "Peña Ñafas",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1520637,40.5744268,0"
+					}
+				},
+				{
+					"name": "Quintanilla y Amigos",
+					"styleUrl": "#icon-1899-7CB342-nodesc",
+					"Point": {
+						"coordinates": "-4.1546697,40.5728085,0"
+					}
+				},
+				{
+					"name": "Santa Rosa Paradise",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1547162,40.5716511,0"
+					}
+				},
+				{
+					"name": "Peña Los Naranjitos",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1530183,40.5726213,0"
+					}
+				},
+				{
+					"name": "Peña La Trilla",
+					"styleUrl": "#icon-1899-F57C00-nodesc",
+					"Point": {
+						"coordinates": "-4.1521886,40.5739896,0"
+					}
+				},
+				{
+					"name": "BAR",
+					"styleUrl": "#icon-1517-FFD600-nodesc",
+					"Point": {
+						"coordinates": "-4.1516598,40.5742236,0"
+					}
+				},
+				{
+					"name": "BAR",
+					"styleUrl": "#icon-1517-FFD600-nodesc",
+					"Point": {
+						"coordinates": "-4.1537106,40.5730424,0"
+					}
+				},
+				{
+					"name": "BAR",
+					"styleUrl": "#icon-1517-FFD600-nodesc",
+					"Point": {
+						"coordinates": "-4.1533366,40.5731282,0"
+					}
+				},
+				{
+					"name": "BAR",
+					"styleUrl": "#icon-1517-FFD600-nodesc",
+					"Point": {
+						"coordinates": "-4.1545632,40.5730677,0"
+					}
+				},
+				{
+					"name": "PARADA BUS",
+					"styleUrl": "#icon-1532-0288D1-nodesc",
+					"Point": {
+						"coordinates": "-4.1525784,40.5749305,0"
+					}
+				}
+			]
+		},
+		"_xmlns": "http://www.opengis.net/kml/2.2"
+	}
+}

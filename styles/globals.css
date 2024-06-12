@@ -1,0 +1,63 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.places-container {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  opacity: 0.9;
+}
+
+.combobox-option {
+  overflow: scroll;
+}
+
+.places-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.places-container button {
+  width: max-content;
+  border-radius: 0.4rem;
+  border: 1px solid #5A98FF;
+  padding: 0.8rem;
+  cursor: pointer;
+  color: #5A98FF;
+  background-color: #D6ECFF;
+}
+
+.places-container button:hover {
+  opacity: 0.8;
+}
