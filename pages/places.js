@@ -69,14 +69,17 @@ const PlacesAutocomplete = ({ setSelected }) => {
         onChange={(e) => setValue(e.target.value)}
         disabled={!ready}
         className="combobox-input"
-        placeholder="Search an address"
+        placeholder="Busca una peña..."
       />
       <ComboboxPopover>
-        <ComboboxList>
-          {status === "OK" &&
-            data.map(({ place_id, description }) => (
-              <ComboboxOption key={place_id} value={description} />
-            ))}
+        <ComboboxList className="combobox-list">
+          {suggestions.map((suggestion) => (
+            <ComboboxOption
+              key={suggestion.name}
+              value={suggestion.name}
+              className="combobox-list-item"
+            />
+          ))}
         </ComboboxList>
       </ComboboxPopover>
     </Combobox>
