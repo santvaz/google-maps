@@ -14,7 +14,6 @@ import locationsData from "./api/places.json";
 export default function Places() {
   const { isLoaded } = useLoadScript({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    libraries: ["places"],
   });
 
   if (!isLoaded) return <div className="loading">Cargando...</div>;
@@ -65,11 +64,12 @@ function Map() {
           locationsData.kml.Document.Placemark.map((place, index) => {
             const [lng, lat] = place.Point.coordinates.split(",").map(Number);
             const isBusStop = place.name.toLowerCase().includes("parada bus");
+            const isBar = place.name.toLowerCase().includes("bar");
             return (
               <Marker
                 key={index}
                 position={{ lat, lng }}
-                icon={isBusStop ? "http://maps.google.com/mapfiles/ms/icons/bus.png" : undefined}
+                icon={isBusStop ? "https://img.icons8.com/?size=40&id=nL8e5GIlMbyd&format=png&color=006EFF" : isBar ? "https://img.icons8.com/?size=35&id=8439&format=png&color=FF8125" : undefined}
                 onClick={() => handleMarkerClick({ name: place.name, position: { lat, lng } })}
               />
             );
@@ -77,12 +77,17 @@ function Map() {
         }
 
         {selected && (
+
           <Marker
             position={selected}
-            icon={selected.name.toLowerCase().includes("parada bus") ? "http://maps.google.com/mapfiles/ms/icons/bus.png" : undefined}
+            icon={
+              selected.name.toLowerCase().includes("parada bus") ? "https://img.icons8.com/?size=40&id=nL8e5GIlMbyd&format=png&color=006EFF" :
+                selected.name.includes("BAR") ? "https://img.icons8.com/?size=35&id=8439&format=png&color=FF8125" : undefined
+            }
             onClick={() => handleMarkerClick({ name: selected.name, position: selected })}
           />
         )}
+
 
         {activeMarker && (
           <InfoWindow
