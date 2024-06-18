@@ -93,6 +93,14 @@ a {
   opacity: 0.8;
 }
 
+.infoWindow {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  opacity: 0.9;
+}
+
 @media screen and (max-width: 768px) {
   .places-container {
     width: 90%;

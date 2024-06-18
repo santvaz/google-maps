@@ -26,31 +26,40 @@ function Map() {
   const [selected, setSelected] = useState(null);
   const [showAllMarkers, setShowAllMarkers] = useState(false);
   const [activeMarker, setActiveMarker] = useState(null);
+  const [isStreetViewActive, setIsStreetViewActive] = useState(false);
 
   const handleToggleMarkers = () => {
     setShowAllMarkers(!showAllMarkers);
     setSelected(null);
   };
 
-
   const handleMarkerClick = (marker) => {
     setActiveMarker(marker);
   };
 
+  const onMapLoad = (map) => {
+    const streetView = map.getStreetView();
+    streetView.addListener("visible_changed", () => {
+      setIsStreetViewActive(streetView.getVisible());
+    });
+  };
+
   return (
     <>
-      <div className="places-container">
-        <PlacesAutocomplete setSelected={setSelected} setShowAllMarkers={setShowAllMarkers} />
-        <button onClick={handleToggleMarkers}>
-          {showAllMarkers ? "Ocultar todo" : "Mostrar todo"}
-        </button>
-      </div>
-
+      {!isStreetViewActive && (
+        <div className="places-container">
+          <PlacesAutocomplete setSelected={setSelected} setShowAllMarkers={setShowAllMarkers} />
+          <button onClick={handleToggleMarkers}>
+            {showAllMarkers ? "Ocultar todo" : "Mostrar todo"}
+          </button>
+        </div>
+      )}
 
       <GoogleMap
         zoom={17}
         center={center}
         mapContainerClassName="map-container"
+        onLoad={onMapLoad}
       >
         {showAllMarkers &&
           locationsData.kml.Document.Placemark.map((place, index) => {
@@ -80,10 +89,10 @@ function Map() {
             position={activeMarker.position}
             onCloseClick={() => setActiveMarker(null)}
           >
-            <div>
+            <div className="infoWindow">
               <h3>{activeMarker.name}</h3>
-              <p>Lat: {activeMarker.position.lat}</p>
-              <p>Lng: {activeMarker.position.lng}</p>
+              <p>Latitud: {activeMarker.position.lat}</p>
+              <p>Longitud: {activeMarker.position.lng}</p>
             </div>
           </InfoWindow>
         )}
