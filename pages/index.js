@@ -19,41 +19,51 @@ export default function Places() {
   if (!isLoaded) return <div className="loading">Cargando...</div>;
   return <Map />;
 }
-
 function Map() {
   const center = useMemo(() => ({ lat: 40.57296655064263, lng: -4.1542498840674185 }), []);
   const [selected, setSelected] = useState(null);
   const [showAllMarkers, setShowAllMarkers] = useState(false);
   const [activeMarker, setActiveMarker] = useState(null);
   const [isStreetViewActive, setIsStreetViewActive] = useState(false);
+  const [mapRef, setMapRef] = useState(null);
 
   const handleToggleMarkers = () => {
     setShowAllMarkers(!showAllMarkers);
     setSelected(null);
+    setActiveMarker(null);
   };
 
   const handleMarkerClick = (marker) => {
-    setActiveMarker(marker);
+    setActiveMarker(null);
+    setTimeout(() => {
+      setActiveMarker(marker);
+    }, 0);
   };
 
   const onMapLoad = (map) => {
+    setMapRef(map);
     const streetView = map.getStreetView();
     streetView.addListener("visible_changed", () => {
       setIsStreetViewActive(streetView.getVisible());
     });
   };
 
+  useEffect(() => {
+    if (selected && mapRef) {
+      mapRef.panTo(selected);
+    }
+  }, [selected, mapRef]);
+
   return (
     <>
       {!isStreetViewActive && (
         <div className="places-container">
-          <PlacesAutocomplete setSelected={setSelected} setShowAllMarkers={setShowAllMarkers} />
+          <PlacesAutocomplete setSelected={setSelected} setShowAllMarkers={setShowAllMarkers} setActiveMarker={setActiveMarker} />
           <button onClick={handleToggleMarkers}>
             {showAllMarkers ? "Ocultar todo" : "Mostrar todo"}
           </button>
         </div>
       )}
-
       <GoogleMap
         zoom={17}
         center={center}
@@ -64,7 +74,7 @@ function Map() {
           locationsData.kml.Document.Placemark.map((place, index) => {
             const [lng, lat] = place.Point.coordinates.split(",").map(Number);
             const isBusStop = place.name.toLowerCase().includes("parada bus");
-            const isBar = place.name.toLowerCase().includes("bar");
+            const isBar = place.name.toLowerCase().split(" ").includes("bar");
             return (
               <Marker
                 key={index}
@@ -77,7 +87,6 @@ function Map() {
         }
 
         {selected && (
-
           <Marker
             position={selected}
             icon={
@@ -87,7 +96,6 @@ function Map() {
             onClick={() => handleMarkerClick({ name: selected.name, position: selected })}
           />
         )}
-
 
         {activeMarker && (
           <InfoWindow
@@ -106,7 +114,7 @@ function Map() {
   );
 }
 
-const PlacesAutocomplete = ({ setSelected, setShowAllMarkers }) => {
+const PlacesAutocomplete = ({ setSelected, setShowAllMarkers, setActiveMarker }) => {
   const [ready, setReady] = useState(false);
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -135,6 +143,7 @@ const PlacesAutocomplete = ({ setSelected, setShowAllMarkers }) => {
       const [lng, lat] = selectedPlace.Point.coordinates.split(",").map(Number);
       setSelected({ name: selectedPlace.name, lat, lng });
       setShowAllMarkers(false);
+      setActiveMarker(null);
     }
     setSuggestions([]);
   };
